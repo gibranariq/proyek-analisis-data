@@ -9,7 +9,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Load Data
-hour_df = pd.read_csv("../dashboard/hour.csv")
+hour_df = pd.read_csv("dashboard/hour.csv")
 
 # Rename kolom
 hour_df = hour_df.rename(columns={'weathersit':'weather',
