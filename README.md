@@ -8,11 +8,11 @@ This project is the final project of data analysis in Python via the Dicoding pl
 
 ## Project Structure
 - **/data**: Is a Project Directory consisting of datasets in .csv format
-- **/dashboardt**: Consists of the dashboard.py file which is the main code for creating website visualizations
+- **/dashboard**: Consists of the dashboard.py file which is the main code for creating website visualizations
 - **notebook.ipynb**: File used to perform data analysis.
 - **README.md**: Data Information
   
-## How to Install?
+## How to Install and Run It?
 1. Clone this repository to your local machine:
 ```
 git clone https://github.com/gibranariq/proyek-analisis-data.git
@@ -21,9 +21,28 @@ git clone https://github.com/gibranariq/proyek-analisis-data.git
 ```
 cd proyek-analisis-data
 ```
-3. Install the required Python packages by running:
+3. Create an Environment using .venv:
+```
+python -m venv .venv
+```
+4. Activate your Environment:
+```
+Windows command prompt
+.venv\Scripts\activate.bat
+
+Windows PowerShell
+.venv\Scripts\Activate.ps1
+
+macOS and Linux
+source .venv/bin/activate
+```
+5. Install the required Python packages by running:
 ```
 pip install -r requirements.txt
+```
+6. Run Streamlit app:
+```
+streamlit run dashboard.py
 ```
 
 ## Dataset
