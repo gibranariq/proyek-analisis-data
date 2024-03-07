@@ -10,7 +10,7 @@ This project is the final project of data analysis in Python via the Dicoding pl
 - **/data**: Is a Project Directory consisting of datasets in .csv format
 - **/dashboard**: Consists of the dashboard.py file which is the main code for creating website visualizations
 - **notebook.ipynb**: File used to perform data analysis.
-- **README.md**: Data Information
+- **README.md**: Data Information and how to run the app
   
 ## How to Install and Run It?
 1. Clone this repository to your local machine:
