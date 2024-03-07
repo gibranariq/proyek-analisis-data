@@ -25,7 +25,7 @@ cd proyek-analisis-data
 ```
 python -m venv .venv
 ```
-4. Activate your Environment:
+4. Activate your Environment by running:
 ```
 Windows command prompt
 .venv\Scripts\activate.bat
