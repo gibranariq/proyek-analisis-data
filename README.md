@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ```
 6. Run Streamlit app:
 ```
-streamlit run dashboard.py
+streamlit run dashboard/dashboard.py
 ```
 
 ## Dataset
