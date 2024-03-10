@@ -9,7 +9,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Load Data
-hour_df = pd.read_csv("dashboard/hour.csv")
+hour_df = pd.read_csv("./dashboard/hour.csv")
 
 # Rename kolom
 hour_df = hour_df.rename(columns={'weathersit':'weather',
@@ -130,7 +130,7 @@ max_date = hour_df["dateday"].max()
 st.sidebar.title("Belajar Analsisis Data")
 with st.sidebar:
     #Menambahkan logo perusahaan
-    st.image("dashboard/sepeda.png")
+    st.image("./dashboard/sepeda.png")
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
         label='Rentang Waktu',min_value=min_date,
